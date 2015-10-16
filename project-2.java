@@ -160,8 +160,8 @@ void mousePressed(){
   }
   
   else{
-  cueDX = cueDX + (cueX - mouseX)/50;
-  cueDY = cueDY + (cueY - mouseY)/50;
+  cueDX += (cueX - mouseX)/50;
+  cueDY += (cueY - mouseY)/50;
   pW = dist(cueX,cueY,mouseX,mouseY)/25;  
   }
   
